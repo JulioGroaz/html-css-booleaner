@@ -70,3 +70,21 @@ thead{
     text-align:left;
     color: white;
 }
+
+.contenitore-immagine {
+    position: relative;
+    display: inline-block; 
+}
+
+.contenitore-immagine img {
+    display: block; 
+}
+.testo-sovrapposto {
+    position: absolute;
+    top:50%;  
+    left: 20%; 
+    right: 20%;
+    color: white; 
+    
+}
+
